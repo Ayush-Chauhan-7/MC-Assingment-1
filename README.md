@@ -1,5 +1,7 @@
 Journey Tracker App README
+
 Introduction
+
 The Journey Tracker App is designed to provide users with a dynamic and interactive way to track their journey through various stops. The app showcases the route of the journey, including all the stops, the distance between the stops, and the progress of the journey. A scrollable list ensures that an unlimited number of stops can be displayed, and a progress bar updates as the user moves to the next stop.
 
 Key Features
