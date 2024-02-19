@@ -16,23 +16,23 @@ The app's main functionality is centered around displaying a list of predefined 
 
 Main Components
 
-Stop: A data class representing a single stop in the journey, including its name and distance from the previous stop.
-Route: A data class defining the entire route, consisting of a list of stops, and identifying the start and end points of the journey.
-Progress: A data class tracking the current stop, total distance, and distance left in the journey, along with a flag for internal logic.
-moveToNextStop(): A function that updates the current stop to the next one and recalculates the remaining distance.
-main(): The main composable function that sets up the UI, including the scrollable list of stops and the progress bar.
+1. Stop: A data class representing a single stop in the journey, including its name and distance from the previous stop.
+2. Route: A data class defining the entire route, consisting of a list of stops, and identifying the start and end points of the journey.
+3. Progress: A data class tracking the current stop, total distance, and distance left in the journey, along with a flag for internal logic.
+4. moveToNextStop(): A function that updates the current stop to the next one and recalculates the remaining distance.
+5. main(): The main composable function that sets up the UI, including the scrollable list of stops and the progress bar.
 
 UI Components
 
-LazyColumn: Used for efficiently displaying a scrollable list of stops when the number exceeds a certain threshold.
-LinearProgressIndicator: Displays the journey's progress as a bar, indicating how much of the total distance has been covered.
-Buttons: Two buttons allow users to toggle the distance units and move to the next stop, dynamically updating the UI.
+1. LazyColumn: Used for efficiently displaying a scrollable list of stops when the number exceeds a certain threshold.
+2. LinearProgressIndicator: Displays the journey's progress as a bar, indicating how much of the total distance has been covered.
+3. Buttons: Two buttons allow users to toggle the distance units and move to the next stop, dynamically updating the UI.
 
 Implementation Details
 
-State Management: The app uses remember and mutableStateOf for managing and updating the UI state in response to user interactions, such as moving to the next stop or toggling the distance units.
-Dynamic UI Updates: Conditional rendering and dynamic modifiers are used to adjust the UI based on the current state, such as highlighting the current stop and updating the progress bar.
-Accessibility and Design: Care has been taken to ensure the UI is accessible (with content descriptions for images) and visually appealing (with custom colors, padding, and fonts).
+1. State Management: The app uses remember and mutableStateOf for managing and updating the UI state in response to user interactions, such as moving to the next stop or toggling the distance units.
+2. Dynamic UI Updates: Conditional rendering and dynamic modifiers are used to adjust the UI based on the current state, such as highlighting the current stop and updating the progress bar.
+3. Accessibility and Design: Care has been taken to ensure the UI is accessible (with content descriptions for images) and visually appealing (with custom colors, padding, and fonts).
 
 Conclusion
 The Journey Tracker App is a practical example of building a dynamic and interactive UI with Jetpack Compose, showcasing the power of Kotlin and Compose for modern Android development. Through its intuitive interface, users can easily track their journey's progress, making it an excellent tool for travel and navigation apps.
