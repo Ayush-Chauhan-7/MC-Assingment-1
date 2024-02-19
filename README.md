@@ -35,5 +35,6 @@ Implementation Details
 3. Accessibility and Design: Care has been taken to ensure the UI is accessible (with content descriptions for images) and visually appealing (with custom colors, padding, and fonts).
 
 Conclusion
+
 The Journey Tracker App is a practical example of building a dynamic and interactive UI with Jetpack Compose, showcasing the power of Kotlin and Compose for modern Android development. Through its intuitive interface, users can easily track their journey's progress, making it an excellent tool for travel and navigation apps.
 
